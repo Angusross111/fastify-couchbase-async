@@ -12,4 +12,7 @@ const fastifyCouchbase = async (fastify, options) => {
     });
     fastify.decorate("cluster", cluster);
 };
-exports.default = (0, fastify_plugin_1.default)(fastifyCouchbase, "3.x");
+exports.default = (0, fastify_plugin_1.default)(fastifyCouchbase, {
+    fastify: "3.x",
+    name: "fastify-couchbase-async",
+});
