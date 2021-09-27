@@ -12,7 +12,7 @@ const fastifyCouchbase = async (fastify, options) => {
     fastify.decorate("cluster", cluster);
 };
 
-module.exports = fp(fastifyCouchbase, {
+export default fp(fastifyCouchbase, {
     fastify: "3.x",
     name: "fastify-couchbase-async",
 });
