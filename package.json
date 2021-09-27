@@ -1,0 +1,33 @@
+{
+    "name": "fastify-couchbase-async",
+    "version": "1.0.0",
+    "description": "Asynchronous couchbase plugin for fastify",
+    "main": "index.js",
+    "type": "module",
+    "types": "index.d.ts",
+    "dependencies": {
+        "couchbase": "^3.2.2",
+        "fastify-plugin": "^3.0.0"
+    },
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "test": "tap test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Angusross111/fastify-couchbase-async.git"
+    },
+    "author": "Angus Ross",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Angusross111/fastify-couchbase-async/issues"
+    },
+    "homepage": "https://github.com/Angusross111/fastify-couchbase-async#readme",
+    "devDependencies": {
+        "@types/node": "^16.10.1",
+        "@types/tap": "^15.0.5",
+        "fastify": "^3.21.6",
+        "tap": "^15.0.10",
+        "typescript": "^4.4.3"
+    }
+}
