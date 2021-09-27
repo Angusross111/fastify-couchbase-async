@@ -9,5 +9,5 @@ declare module "fastify" {
         cluster: Cluster;
     }
 }
-declare const _default: FastifyPluginAsync<Options, import("http").Server>;
-export default _default;
+declare const fastifyCouchbase: FastifyPluginAsync<Options, import("http").Server>;
+export default fastifyCouchbase;
